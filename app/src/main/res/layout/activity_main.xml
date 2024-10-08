@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/board_background">
+
+    <ImageView
+        android:id="@+id/gridImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/tic_tac_toe_grid"
+        android:layout_gravity="center" />
+
+    <!-- Grid Layout for the Tic-Tac-Toe Board -->
+<GridLayout
+android:id="@+id/gridLayout"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:rowCount="3"
+android:columnCount="3"
+android:layout_gravity="center"
+android:padding="16dp">
+
+<!-- Buttons for the Tic-Tac-Toe grid cells -->
+<Button
+    android:id="@+id/button1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button7"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button8"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+<Button
+    android:id="@+id/button9"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/app_name"
+    android:textSize="24sp" />
+
+    </GridLayout>
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_game"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="48dp"
+        android:textSize="18sp"
+        android:background="@color/green"
+        android:padding="10dp" />
+</FrameLayout>
